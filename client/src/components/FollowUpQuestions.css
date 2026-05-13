@@ -1,0 +1,89 @@
+.fq-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.copy-all-btn {
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  color: var(--text2);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  padding: 3px 9px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+
+.copy-all-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.fq-intro {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text3);
+}
+
+.fq-list { display: flex; flex-direction: column; }
+
+.fq-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+
+.fq-item:last-child { border-bottom: none; }
+.fq-item:hover { background: rgba(255,255,255,0.02); }
+
+.fq-num {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.fq-content { flex: 1; }
+
+.fq-question {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--text);
+  line-height: 1.65;
+  margin-bottom: 7px;
+}
+
+.fq-meta { display: flex; flex-direction: column; gap: 4px; }
+
+.fq-gap {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.fq-looking {
+  font-size: 0.74rem;
+  color: var(--text3);
+  line-height: 1.5;
+}
+
+.copy-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text3);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  transition: all 0.12s;
+}
+
+.copy-btn:hover { border-color: var(--accent); color: var(--accent); }

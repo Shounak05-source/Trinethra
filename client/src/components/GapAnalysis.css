@@ -1,0 +1,78 @@
+.gap-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.badge-warn { color: var(--red) !important; background: rgba(239,68,68,0.1) !important; border-color: rgba(239,68,68,0.2) !important; }
+.badge-ok { color: var(--green) !important; background: rgba(34,197,94,0.1) !important; border-color: rgba(34,197,94,0.2) !important; }
+
+.covered-dims {
+  padding: 10px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.dim-covered {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--green);
+  background: rgba(34,197,94,0.07);
+  border: 1px solid rgba(34,197,94,0.2);
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.gap-all-good {
+  padding: 16px;
+  font-size: 0.8rem;
+  color: var(--green);
+}
+
+.gap-list { display: flex; flex-direction: column; }
+
+.gap-item {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+}
+
+.gap-item:last-child { border-bottom: none; }
+
+.gap-dim {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 6px;
+}
+
+.gap-icon { font-size: 0.9rem; }
+
+.gap-dim-label {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.gap-missing-tag {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  color: var(--red);
+  background: rgba(239,68,68,0.1);
+  border: 1px solid rgba(239,68,68,0.2);
+  padding: 1px 6px;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+
+.gap-detail {
+  font-size: 0.78rem;
+  color: var(--text2);
+  line-height: 1.6;
+}
